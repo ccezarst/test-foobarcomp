@@ -1,0 +1,10 @@
+^C:\SERVERFRAMEWORKV2\TEST-FOOBARCOMP\BUILD\CMAKEFILES\97F89FF617A42C0B44C4AB4C58259A95\GENERATE.STAMP.RULE
+setlocal
+D:\CMake\bin\cmake.exe -SC:/ServerFrameworkV2/test-foobarcomp -BC:/ServerFrameworkV2/test-foobarcomp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/ServerFrameworkV2/test-foobarcomp/build/foo_apple_music.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
