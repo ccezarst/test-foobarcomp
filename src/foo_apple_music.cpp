@@ -71,8 +71,10 @@ public:
 
     enum
     {
-        FOOBAR2000_CLIENT_VERSION_COMPATIBLE = 72,
-        FOOBAR2000_CLIENT_VERSION = 78,
+        // Match the compatibility contract shipped with the 2023 foobar2000 SDK
+        // so hosts built against that release accept the component.
+        FOOBAR2000_CLIENT_VERSION_COMPATIBLE = 77,
+        FOOBAR2000_CLIENT_VERSION = 79,
     };
 
     virtual ~foobar2000_client() = default;
