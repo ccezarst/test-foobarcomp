@@ -43,6 +43,11 @@ set(_fb2k_import_names
     foobar2000_component_client
 )
 
+set(_fb2k_unicode_definitions
+    UNICODE
+    _UNICODE
+)
+
 set(_fb2k_can_use_imported TRUE)
 if(NOT EXISTS "${_fb2k_lib_dir}")
     set(_fb2k_can_use_imported FALSE)
@@ -61,6 +66,7 @@ endforeach()
 if(_fb2k_can_use_imported)
     add_library(foobar2000_sdk INTERFACE)
     target_include_directories(foobar2000_sdk INTERFACE ${_fb2k_existing_include_dirs})
+    target_compile_definitions(foobar2000_sdk INTERFACE ${_fb2k_unicode_definitions})
 
     foreach(_lib IN LISTS _fb2k_import_names)
         set(_import_target "foobar2000_sdk_${_lib}")
@@ -119,6 +125,7 @@ else()
 
     add_library(foobar2000_sdk STATIC ${_fb2k_all_sources})
     target_include_directories(foobar2000_sdk PUBLIC ${_fb2k_existing_include_dirs})
+    target_compile_definitions(foobar2000_sdk PUBLIC ${_fb2k_unicode_definitions})
 endif()
 
 cmake_policy(POP)
