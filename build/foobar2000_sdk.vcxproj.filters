@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\SmartStrStr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\audio_math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\audio_sample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\base64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\bigmem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\bit_array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\bsearch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\charDownConvert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\cpuid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\crashWithMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\filehandle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\filetimetools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\guid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\nix-objects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\other.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\pathUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\pfc-fb2k-hooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\printf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\selftest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\sort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\splitString2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\string-compare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\string-conv-lite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\string-lite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\string_base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\string_conv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\synchro_nix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\threads.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\timers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\unicode-normalize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\utf8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\wildcard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ServerFrameworkV2\test-foobarcomp\sdk\pfc\win-objects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ServerFrameworkV2\test-foobarcomp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7053C888-49F6-3354-B883-7F3C0E5370A8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

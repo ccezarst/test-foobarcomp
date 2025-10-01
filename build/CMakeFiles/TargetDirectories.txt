@@ -1,0 +1,4 @@
+C:/ServerFrameworkV2/test-foobarcomp/build/CMakeFiles/foobar2000_sdk.dir
+C:/ServerFrameworkV2/test-foobarcomp/build/CMakeFiles/foo_apple_music.dir
+C:/ServerFrameworkV2/test-foobarcomp/build/CMakeFiles/ALL_BUILD.dir
+C:/ServerFrameworkV2/test-foobarcomp/build/CMakeFiles/ZERO_CHECK.dir

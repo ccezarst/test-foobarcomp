@@ -4,7 +4,7 @@ project(foo_apple_music LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
-
+set(FOOBAR2000_SDK_DIR C:/ServerFrameworkV2/test-foobarcomp/sdk)
 include(cmake/foobar2000_sdk.cmake)
 
 if(NOT TARGET foobar2000_sdk)
