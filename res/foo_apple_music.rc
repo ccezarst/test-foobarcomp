@@ -1,0 +1,27 @@
+#include "resource.h"
+
+IDD_APPLE_MUSIC_PREFS DIALOGEX 0, 0, 320, 200
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 9, "Segoe UI"
+BEGIN
+    LTEXT           "MusicKit developer token:", -1, 7, 7, 140, 10
+    EDITTEXT        IDC_EDIT_DEVELOPER_TOKEN, 7, 18, 306, 14, ES_AUTOHSCROLL
+    LTEXT           "Account status:", -1, 7, 40, 80, 10
+    LTEXT           "Not signed in", IDC_STATIC_APPLE_MUSIC_STATUS, 90, 40, 223, 10
+    LTEXT           "Music-user token:", -1, 7, 55, 80, 10
+    LTEXT           "", IDC_STATIC_APPLE_MUSIC_TOKEN, 90, 55, 223, 10
+    PUSHBUTTON      "Log in to Apple Music…", IDC_BUTTON_APPLE_MUSIC_LOGIN, 7, 80, 140, 14
+    PUSHBUTTON      "Sign out", IDC_BUTTON_APPLE_MUSIC_SIGN_OUT, 154, 80, 80, 14, WS_DISABLED
+    LTEXT           "Use the sign-in button to authenticate with your Apple ID. Developer tokens are stored securely using DPAPI.", -1, 7, 104, 306, 26
+END
+
+IDD_APPLE_MUSIC_LOGIN DIALOGEX 0, 0, 360, 480
+STYLE DS_SETFONT | WS_CAPTION | WS_SYSMENU
+CAPTION "Apple Music Sign-In"
+FONT 9, "Segoe UI"
+BEGIN
+    CONTROL         "", IDC_APPLE_MUSIC_BROWSER, "AtlAxWin", WS_CHILD | WS_VISIBLE | WS_BORDER, 7, 7, 346, 426
+    LTEXT           "Waiting for sign-in…", IDC_APPLE_MUSIC_LOGIN_STATUS, 7, 440, 346, 12
+    DEFPUSHBUTTON   "Close", IDCANCEL, 262, 455, 91, 16
+END
+
